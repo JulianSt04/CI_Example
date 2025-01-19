@@ -1,4 +1,3 @@
-package CI_Example;
 public class PrimeCheck {
   /**
    * @param number that is tested
