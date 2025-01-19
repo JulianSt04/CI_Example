@@ -34,7 +34,7 @@ public class PrimeCheckTest {
   @Test
   public void testNonPrimes() {
     int[] nonPrimes = {4,6,10,450,333,256,144,18,100000,49,63};
-    for (int i=0; i<primes.length; i++){
+    for (int i=0; i<nonPrimes.length; i++){
     assertEquals("False if is no Prime", false, PrimeCheck.isPrime(nonPrimes[i]));
     }
   }
